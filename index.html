@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minta Maaf ke Kamu </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Step 1: Input name -->
+	<div class="card" id="nameCard">
+		<h1>haii bayii</h1>
+		<p>cobaa tulis namaa kamu bayii disinii</p>
+		<input type="text" id="nickname" placeholder="contoh: baby , nyunyu , el , dll" />
+		<button id="submitName">Lanjut 💌</button>
+	</div>
+
+	<!-- Step 2: Minta maaf -->
+	<div class="card" id="apologyCard" style="display: none;">
+		<h1>Aku minta maaf nyaak</h1>
+		<p id="apologyText">Aku tadi ga bermaksud buat ga ngabarin kamu.</p>
+		<div class="btn-group">
+			<button id="yesBtn">MAAFINN 💖</button>
+			<button id="noBtn">NOOO 😠</button>
+		</div>
+	</div>
+
+
+	<!-- Popup -->
+	<div class="popup" id="popup">
+		<div class="popup-content">
+			<h2 id="popupTitle"></h2>
+			<p id="popupMsg"></p>
+			<div class="hearts" id="hearts"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
