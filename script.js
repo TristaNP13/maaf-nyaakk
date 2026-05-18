@@ -25,7 +25,7 @@ submitName.addEventListener('click', () => {
   apologyCard.style.display = 'block';
 
   const apologyTitle = apologyCard.querySelector('h1');
-  apologyTitle.textContent = `${nickname}, aku minta maaf nyaak bayi`;
+  apologyTitle.textContent = `${nickname}, aku minta maaf nyaak`;
 
   apologyText.innerHTML = `Aku gak bermaksud buat ga ngabarin kamuu.<br>maafin aku nyak? `;
 });
