@@ -41,7 +41,7 @@ noBtn.addEventListener('click', () => {
 
 yesBtn.addEventListener('click', () => {
   popup.classList.add('active');
-  popupTitle.textContent = `maacii, ${nickname} `;
+  popupTitle.textContent = `yeaayy maacii, ${nickname} `;
   popupMsg.textContent = `next aku bakal selalu ngabarin kamuu nyak sayaang`;
   generateHearts();
   setTimeout(() => {
